@@ -5,3 +5,7 @@ require 'wordnet/lemma'
 require 'wordnet/pointers'
 require 'wordnet/pos'
 require 'wordnet/synset'
+
+require 'wordnet-similarity/ic'
+require 'wordnet-similarity/wordnetic'
+require 'wordnet-similarity/similarityindex'

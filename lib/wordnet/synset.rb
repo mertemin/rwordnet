@@ -70,6 +70,10 @@ class Synset
   def hyponym
     get_relation(Hyponym)
   end
+
+  def synoff
+    @synset_offset
+  end
   
   # Get the entire hypernym tree (from this synset all the way up to +entity+) as an array.
   def expanded_hypernym
